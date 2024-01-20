@@ -183,5 +183,9 @@ Realizar las siguientes conexiones:
 
 ## Resultados
  ![]()
+
+ ## Créditos
+
+ Elaborado por el Ing. Alejandro Barrera
  
 
