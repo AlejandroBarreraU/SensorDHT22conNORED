@@ -8,12 +8,23 @@ En esta práctica aprenderemos como hacer la conexión NODE-RED con un sensor DH
 ## Instrucciones
 ### Pasos a seguir en NODE-RED
 1. Colocar bloque mqqtt in.
+
+   
    ![](https://github.com/AlejandroBarreraU/SensorDHT22conNORED/blob/main/mqtt.png?raw=true)
+
+
+   
 2. Configurar el bloque con el puerto mqtt con el ip 18.193.219.109. Y etiquetar "alejandro12"
+
+
    ![](https://github.com/AlejandroBarreraU/SensorDHT22conNORED/blob/main/imagen%202%20p8.png?raw=true)
+
+   
 3. Colocar el bloque json y configurarlo como se muestra en la imagen.
    ![](https://github.com/AlejandroBarreraU/SensorDHT22conNORED/blob/main/imagen%203%20p8.png?raw=true)
-4. Colocamos dos bloques function y lo configuramos con el siguente codigo.
+   
+5. Colocamos dos bloques function y lo configuramos con el siguente codigo.
+   
   ```
 msg.payload = msg.payload.TEMPERATURA;
 msg.topic = "TEMPERATURA";
