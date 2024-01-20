@@ -54,8 +54,8 @@ DHTesp dhtSensor;
 
 const char* ssid = "Wokwi-GUEST";
 const char* password = "";
-const char* mqtt_server = "52.57.167.175";
-String username_mqtt="educatronicosiot";
+const char* mqtt_server = "18.193.219.109";
+String username_mqtt="alejandro12";
 String password_mqtt="12345678";
 
 WiFiClient espClient;
@@ -176,9 +176,10 @@ TempAndHumidity  data = dhtSensor.getTempAndHumidity();
     Serial.print("Publish message: ");
     Serial.println(output);
     Serial.println(output.c_str());
-    client.publish("Diplomado", output.c_str());
+    client.publish("alejandro12", output.c_str());
   }
 }
+
  ```
 
    
