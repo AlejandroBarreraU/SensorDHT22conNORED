@@ -14,17 +14,19 @@ En esta práctica aprenderemos como hacer la conexión NODE-RED con un sensor DH
 3. Colocar el bloque json y configurarlo como se muestra en la imagen.
    ![]()
 4. Colocamos dos bloques function y lo configuramos con el siguente codigo.
-   ```
+  ```
 msg.payload = msg.payload.TEMPERATURA;
 msg.topic = "TEMPERATURA";
 return msg;
+  ```
 
-   ```
+  ```
 msg.payload = msg.payload.HUMEDAD;
 msg.topic = "HUMEDAD";
 return msg;
+  ```
 
-   ```
+
 5. Colocamos los bloques de chart y gauge, uno para cada bloque function.
 
 ## Programación en ESP32
